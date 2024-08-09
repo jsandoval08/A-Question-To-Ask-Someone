@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background-color: bisque;
+    font-family: cursive;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: curive;
+  }
+
+  .no{
+    background-color: rgb(60, 123, 218);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #message{
+    margin-top: 20px;
+  }
+
+  #confetti-canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  button {
+    background-color:rgb(60, 123, 218);
+    border: none;
+    color: rgb(255, 223, 223);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: cursive;
+  }
+
+  footer{
+    margin-top: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding-top: 50px;
+    }
+  
+    h1 {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+  
